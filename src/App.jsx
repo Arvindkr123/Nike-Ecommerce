@@ -1,12 +1,11 @@
 import React from "react";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-6xl text-red-600">
-        Welcome to Nike Ecommerce Website
-      </h1>
-    </div>
+    <main>
+      <Hero />
+    </main>
   );
 };
 
