@@ -1,11 +1,14 @@
 import React from "react";
 import Hero from "./components/Hero";
+import { heroapi } from "./data/data";
 
 const App = () => {
   return (
-    <main>
-      <Hero />
-    </main>
+    <>
+      <main>
+        <Hero heroapi={heroapi} />
+      </main>
+    </>
   );
 };
 
